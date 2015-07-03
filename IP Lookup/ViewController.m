@@ -31,7 +31,9 @@
 - (IBAction)getIPBtn:(id)sender {
     NetworkHandler *netHandlerObject = [[NetworkHandler alloc] init];
     
-    [netHandlerObject fetchData:_editTxt.text];
+    [netHandlerObject fetchData:_editTxt.text withHandler:^(BOOL success){
+            [netHandlerObject getFromDictionary];
+    }];
     
     NSString *dictData = [NSString stringWithFormat:@" IP : %@\n Country Code : %@\n Country Name : %@\n Region Name : %@\n City : %@\n TimeZone : %@\n Latitude : %@\n Longitude : %@", netHandlerObject.ip,
                           netHandlerObject.countryCode,

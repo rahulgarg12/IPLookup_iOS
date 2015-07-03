@@ -15,13 +15,16 @@ NSDictionary *jsonDict;
 @implementation NetworkHandler
 
 
-- (void) fetchData : (NSString*) ipString {
+- (void) fetchData : (NSString*) ipString
+        withHandler: (void (^)(BOOL success))completionBlock
+{
     NSLog(@"Fetching data from IP ");
     
     NSString *urlString = [NSString stringWithFormat: @"https://freegeoip.net/json/%@",ipString];
     NSURL *baseURL = [NSURL URLWithString: urlString];
     NSData *urlData = [NSData dataWithContentsOfURL:baseURL];
     
+    BOOL success = YES;
     NSError *jsonError = [[NSError alloc] init];
     
     @try {
@@ -29,10 +32,12 @@ NSDictionary *jsonDict;
     }
     @catch(NSException *e) {
         NSLog(@"Enter valid IP Address");
+        success = NO;
     }
     
-    
-    [self getFromDictionary];
+    if (success) {
+        completionBlock(success);
+    }
 }
 
 - (void) getFromDictionary {

@@ -23,7 +23,8 @@
 @property NSString *latitude;
 @property NSString *longitude;
 
-- (void) fetchData : (NSString*) ipString;
+- (void) fetchData : (NSString*) ipString
+        withHandler: (void (^)(BOOL success))completionBlock;
 - (void) getFromDictionary;
 
 @end

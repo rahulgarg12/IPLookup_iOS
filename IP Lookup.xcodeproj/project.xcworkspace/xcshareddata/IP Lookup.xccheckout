@@ -12,7 +12,13 @@
 	<dict>
 		<key>0F08C02D503FDC9021857F59AA7B121A672E5B39</key>
 		<string>https://bitbucket.org/gargrahul/ip-lookup-ios.git</string>
+<<<<<<< HEAD
+		<key>5A71DD384F9754DC94A923F1FE95C76DDD62D356</key>
+		<string>https://github.com/rahulgarg12/IP_Lookup_iOS.git</string>
+		<key>ED0078F85F560AC2489CC7D7963CA6E1A15F6D5D</key>
+=======
 		<key>C308D9A511929D24177C762F259D1B247BF983B0</key>
+>>>>>>> 2b44438a2e57359861b75c65448ea403c413044f
 		<string>https://bitbucket.org/gargrahul/ip-lookup-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
@@ -20,6 +26,20 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0F08C02D503FDC9021857F59AA7B121A672E5B39</key>
+<<<<<<< HEAD
+		<string>../../../IP%20Lookup%20(iOS)</string>
+		<key>5A71DD384F9754DC94A923F1FE95C76DDD62D356</key>
+		<string>../..</string>
+		<key>ED0078F85F560AC2489CC7D7963CA6E1A15F6D5D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rahulgarg12/IP_Lookup_iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5A71DD384F9754DC94A923F1FE95C76DDD62D356</string>
+=======
 		<string>../..</string>
 		<key>C308D9A511929D24177C762F259D1B247BF983B0</key>
 		<string>../../..</string>
@@ -30,13 +50,18 @@
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>0F08C02D503FDC9021857F59AA7B121A672E5B39</string>
+>>>>>>> 2b44438a2e57359861b75c65448ea403c413044f
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
+			<string>ED0078F85F560AC2489CC7D7963CA6E1A15F6D5D</string>
+=======
 			<string>C308D9A511929D24177C762F259D1B247BF983B0</string>
+>>>>>>> 2b44438a2e57359861b75c65448ea403c413044f
 			<key>IDESourceControlWCCName</key>
 			<string></string>
 		</dict>
@@ -48,6 +73,17 @@
 			<key>IDESourceControlWCCName</key>
 			<string>IP%20Lookup%20(iOS)</string>
 		</dict>
+<<<<<<< HEAD
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5A71DD384F9754DC94A923F1FE95C76DDD62D356</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IPLookup_iOS</string>
+		</dict>
+=======
+>>>>>>> 2b44438a2e57359861b75c65448ea403c413044f
 	</array>
 </dict>
 </plist>
